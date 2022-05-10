@@ -1,0 +1,95 @@
+body img {
+    height: 150px;
+    width: 150px;
+}
+
+body {
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.products {
+    width: 500px;
+    height: 80vh;
+    border: 5px solid red;
+    border-radius: 15px;
+    overflow-y: auto;
+    padding: 10px;
+    gap: 10px;
+    background-color: antiquewhite;
+}
+
+.products h1 {
+    text-align: center;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.sebet h1 {
+    text-align: center;
+    background-color: white;
+}
+
+.sebet {
+    gap: 10px;
+    align-items: center;
+}
+
+.basketContainer {
+    width: 500px;
+    border: 5px solid green;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.basket {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    overflow-y: auto;
+    background-color: antiquewhite;
+}
+
+.hide {
+    display: none;
+}
+
+.product-footer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.product-footer>button {
+    border-radius: 5px;
+    padding: 0 5px;
+    height: 20px;
+}
+
+.totalPrice {
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fruit {
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 160px;
+    width: 160px;
+}
+
+.box {
+    display: flex;
+    gap: 5px;
+}
